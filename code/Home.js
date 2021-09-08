@@ -10,6 +10,7 @@ UC.init().then((initialUIValues) => {
   console.log("Settings -> " + JSON.stringify(settings));
 
   console.log("Categories -> " + categories);
+  console.log("Categories -> " + JSON.stringify(categories));
 
   if (initialUIValues.variant === UI_VARIANT.DEFAULT) {
     switch (initialUIValues.initialLayer) {
