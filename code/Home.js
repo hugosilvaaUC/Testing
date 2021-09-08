@@ -6,6 +6,10 @@ UC.init().then((initialUIValues) => {
   // getCategories() returns all categories' and data processing services' information
   const categories = UC.getCategories();
 
+  console.log("Settings -> " + settings);
+
+  console.log("Categories -> " + categories);
+
   if (initialUIValues.variant === UI_VARIANT.DEFAULT) {
     switch (initialUIValues.initialLayer) {
       case UI_LAYER.FIRST_LAYER:
