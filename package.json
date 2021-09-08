@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@usercentrics/cmp-browser-sdk": "^2.8.1"
+    "@usercentrics/cmp-browser-sdk": "^2.8.1",
+    "package": "^1.0.1"
   }
 }
