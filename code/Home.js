@@ -1,6 +1,4 @@
-import Usercentrics, { UI_LAYER, UI_VARIANT } from '../node_modules/@usercentrics/cmp-browser-sdk';
-
-const UC = new Usercentrics('ZVQN5qwpc');
+const UC = new UC_SDK.default('ZVQN5qwpc');
 
 UC.init().then((initialUIValues) => {
   // getSettings() returns all Usercentrics settings you need for your custom solution
