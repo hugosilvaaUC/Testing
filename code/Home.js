@@ -7,6 +7,7 @@ UC.init().then((initialUIValues) => {
   const categories = UC.getCategories();
 
   console.log("Settings -> " + settings);
+  console.log("Settings -> " + JSON.stringify(settings));
 
   console.log("Categories -> " + categories);
 
