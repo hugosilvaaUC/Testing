@@ -1,3 +1,5 @@
+
+import dadad from "@usercentrics/cmp-browser-sdk"
 const UC = new UC_SDK.default('ZVQN5qwpc');
 
 UC.init().then((initialUIValues) => {
