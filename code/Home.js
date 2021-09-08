@@ -1,4 +1,4 @@
-import Usercentrics, { UI_LAYER, UI_VARIANT } from './node_modules/@usercentrics/cmp-browser-sdk';
+import Usercentrics, { UI_LAYER, UI_VARIANT } from '@usercentrics/cmp-browser-sdk';
 
 const UC = new Usercentrics('ZVQN5qwpc');
 
