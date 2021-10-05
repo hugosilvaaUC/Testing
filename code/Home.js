@@ -1,6 +1,5 @@
-
-import dadad from "@usercentrics/cmp-browser-sdk"
-const UC = new UC_SDK.default('ZVQN5qwpc');
+import dadad from "@usercentrics/cmp-browser-sdk";
+const UC = new UC_SDK.default("ZVQN5qwpc");
 
 UC.init().then((initialUIValues) => {
   // getSettings() returns all Usercentrics settings you need for your custom solution
@@ -26,7 +25,7 @@ UC.init().then((initialUIValues) => {
         return;
       case UI_LAYER.NONE:
       default:
-          console.log("Teste");
+        console.log("Teste");
         // Show nothing
         return;
     }
