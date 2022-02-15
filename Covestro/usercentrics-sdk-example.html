@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covestro - Usercentrics SDK Implementation</title>
+    <!-- Usercentrics Script -->
+    <script src="https://app.usercentrics.eu/browser-sdk/3.2.0/bundle.js"></script>
+
+    <script>
+      const UC = new UC_SDK.default("M0zYKe4MA");
+
+      UC.init().then((initialUIValues) => {
+        // getCategories() returns all categories' and data processing services' information
+        const categories = UC.getCategories();
+        // getSettingsCore() returns all Usercentrics settings you need for your custom solution
+        const settings = UC.getSettingsCore();
+
+        const onAcceptAllHandler = () => {
+          UC.acceptAllServices().then(() => {
+            // Remember to fetch the now updated categories
+            console.log("acceptAllServices()");
+          });
+        };
+
+        if (initialUIValues.variant === UC_SDK.UI_VARIANT.DEFAULT) {
+          switch (initialUIValues.initialLayer) {
+            case UC_SDK.UI_LAYER.FIRST_LAYER:
+              // Show first layer (i.e. privacy banner)
+
+              return;
+            case UC_SDK.UI_LAYER.PRIVACY_BUTTON:
+              // Show privacy button
+              return;
+            case UC_SDK.UI_LAYER.NONE:
+            default:
+              // Show nothing
+              console.log("Show Nothing");
+              onAcceptAllHandler();
+              return;
+          }
+        }
+      });
+    </script>
+    <!-- Usercentrics Script -->
+  </head>
+  <body></body>
+</html>

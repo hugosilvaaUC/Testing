@@ -1,0 +1,28 @@
+<!--SUPPORT-14379-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testing Tickets</title>
+    <script
+      id="usercentrics-cmp"
+      src="https://app.usercentrics.eu/browser-ui/latest/loader.js"
+      data-settings-id="6FLrzWh-M"
+      async
+    ></script>
+
+    <script>
+      window.addEventListener("UC_UI_INITIALIZED", function (e) {
+        let pageCountryLanguage = "BE-nl";
+        if (pageCountryLanguage == "BE-nl") {
+          UC_UI.getSettings().ui.links.imprint.url = "link-for-belgian-dutch";
+        } else if (pageCountryLanguage == "BE-fr") {
+          UC_UI.getSettings().ui.links.imprint.url = "link-for-belgian-french";
+        }
+      });
+    </script>
+  </head>
+  <body></body>
+</html>
