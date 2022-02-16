@@ -21,6 +21,8 @@
           UC.acceptAllServices().then(() => {
             // Remember to fetch the now updated categories
             console.log("acceptAllServices()");
+            console.log("Services Basic Info:");
+            console.log(UC.getServicesBaseInfo());
           });
         };
 
@@ -28,12 +30,17 @@
           switch (initialUIValues.initialLayer) {
             case UC_SDK.UI_LAYER.FIRST_LAYER:
               // Show first layer (i.e. privacy banner)
-
+              console.log("Show First Layer");
+              onAcceptAllHandler();
               return;
             case UC_SDK.UI_LAYER.PRIVACY_BUTTON:
               // Show privacy button
+              console.log("Show Privacy Button");
+              onAcceptAllHandler();
               return;
             case UC_SDK.UI_LAYER.NONE:
+              console.log("None");
+              onAcceptAllHandler();
             default:
               // Show nothing
               console.log("Show Nothing");
