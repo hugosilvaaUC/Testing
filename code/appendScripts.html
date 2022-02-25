@@ -19,16 +19,17 @@
 
     <script>
       // First Script
-      var s = document.createElement("script");
-      s.type = "text/javascript";
-      s.src =
+      var firstScript = document.createElement("script");
+      firstScript.type = "text/javascript";
+      firstScript.src =
         "//data-583ff8cf8b.energate-messenger.de/iomm/latest/bootstrap/stub.js";
-      document.head.appendChild(s);
+      document.head.appendChild(firstScript);
 
       // Second Script
-      var test = document.createElement("script");
-      test.type = "text/javascript";
-      test.onload = function () {
+      var secondScript = document.createElement("script");
+      secondScript.type = "text/javascript";
+      secondScript.onload = secondScript.onreadystatechange = function () {
+        console.log("Running secondSript");
         IOMm("configure", {
           st: "energate",
           dn: "data-583ff8cf8b.energate-messenger.de",
@@ -36,14 +37,14 @@
         }); // Configure IOMm
         IOMm("pageview", { cp: "dronzbthka-n" }); // Count pageview
       };
-      document.body.append(test);
+      document.body.append(secondScript);
 
       // Third script
       var secondScript = document.createElement("script");
-      secondScript.type = "text/javascript";
-      secondScript.src =
+      thirdScript.type = "text/javascript";
+      thirdScript.src =
         "//data-583ff8cf8b.energate-messenger.de/iomm/latest/manager/base/es5/bundle.js";
-      document.body.appendChild(secondScript);
+      document.body.appendChild(thirdScript);
     </script>
 
     <!-- Code Related with Test -->
