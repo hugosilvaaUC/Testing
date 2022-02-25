@@ -6,34 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Test</title>
+    <script
+      id="usercentrics-cmp"
+      src="https://app.usercentrics.eu/browser-ui/latest/loader.js"
+      data-settings-id="PzLqSPiCm"
+      async
+    ></script>
   </head>
   <body>
     Testing 3 scripts being appended in a row. Loading in sequence.
     <!-- Code Related with Test -->
 
-    <script>
+    <script type="text/plain" data-usercentrics="INFOnline">
       // First Script
       var firstScript = document.createElement("script");
       firstScript.type = "text/javascript";
       firstScript.src =
         "//data-583ff8cf8b.energate-messenger.de/iomm/latest/bootstrap/stub.js";
+
+      firstScript.onload = function run() {
+        // Second Script
+        var secondScript = document.createElement("script");
+        secondScript.type = "text/javascript";
+        secondScript.innerHTML =
+          "IOMm('configure'," +
+          "{st: 'energate', dn: 'data-583ff8cf8b.energate-messenger.de', dg: true,});" +
+          "IOMm('pageview', { cp: 'dronzbthka-n'});";
+        document.head.append(secondScript);
+
+        // Third script
+        var thirdScript = document.createElement("script");
+        thirdScript.type = "text/javascript";
+        thirdScript.src =
+          "//data-583ff8cf8b.energate-messenger.de/iomm/latest/manager/base/es5/bundle.js";
+        document.body.appendChild(thirdScript);
+      };
       document.head.appendChild(firstScript);
-
-      // Second Script
-      var secondScript = document.createElement("script");
-      secondScript.type = "text/javascript";
-      secondScript.innerHTML =
-        "IOMm('configure'," +
-        "{st: 'energate', dn: 'data-583ff8cf8b.energate-messenger.de', dg: true,});" +
-        "IOMm('pageview', { cp: 'dronzbthka-n'});";
-      document.body.append(secondScript);
-
-      // Third script
-      var thirdScript = document.createElement("script");
-      thirdScript.type = "text/javascript";
-      thirdScript.src =
-        "//data-583ff8cf8b.energate-messenger.de/iomm/latest/manager/base/es5/bundle.js";
-      document.body.appendChild(thirdScript);
     </script>
 
     <!-- Code Related with Test -->
