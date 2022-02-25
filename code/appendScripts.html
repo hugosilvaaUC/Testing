@@ -22,15 +22,10 @@
       // Second Script
       var secondScript = document.createElement("script");
       secondScript.type = "text/javascript";
-      secondScript.onload = secondScript.onreadystatechange = function () {
-        console.log("Running secondSript");
-        IOMm("configure", {
-          st: "energate",
-          dn: "data-583ff8cf8b.energate-messenger.de",
-          dg: true,
-        }); // Configure IOMm
-        IOMm("pageview", { cp: "dronzbthka-n" }); // Count pageview
-      };
+      secondScript.innerHTML =
+        "IOMm('configure'," +
+        "{st: 'energate', dn: 'data-583ff8cf8b.energate-messenger.de', dg: true,});" +
+        "IOMm('pageview', { cp: 'dronzbthka-n'}";
       document.body.append(secondScript);
 
       // Third script
