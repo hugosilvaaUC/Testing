@@ -18,12 +18,27 @@
     <!-- Code Related with Test -->
 
     <script>
+      // First Script
       var s = document.createElement("script");
       s.type = "text/javascript";
       s.src =
         "//data-583ff8cf8b.energate-messenger.de/iomm/latest/bootstrap/stub.js";
       document.head.appendChild(s);
 
+      // Second Script
+      var test = document.createElement("script");
+      test.type = "text/javascript";
+      test.onload = function () {
+        IOMm("configure", {
+          st: "energate",
+          dn: "data-583ff8cf8b.energate-messenger.de",
+          dg: true,
+        }); // Configure IOMm
+        IOMm("pageview", { cp: "dronzbthka-n" }); // Count pageview
+      };
+      document.body.append(test);
+
+      // Third script
       var secondScript = document.createElement("script");
       secondScript.type = "text/javascript";
       secondScript.src =
@@ -33,15 +48,16 @@
 
     <!-- Code Related with Test -->
     <!-- content -->
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       IOMm("configure", {
         st: "energate",
         dn: "data-583ff8cf8b.energate-messenger.de",
         dg: true,
       }); // Configure IOMm
       IOMm("pageview", { cp: "dronzbthka-n" }); // Count pageview
-      //  <!-- IOMm("3p", "qds");--> // Trigger qds module (for agof ddf participants only!) -->
-    </script>
+      //  <!-- IOMm("3p", "qds");-->
+    // Trigger qds module (for agof ddf participants only!) -->
+    <!--</script> -->
     <!-- <script
       type="text/javascript"
       src="//data-583ff8cf8b.energate-messenger.de/iomm/latest/manager/base/es5/bundle.js"
