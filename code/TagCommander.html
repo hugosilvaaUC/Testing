@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tag Commander</title>
+    <script
+      id="usercentrics-cmp"
+      src="https://app.usercentrics.eu/browser-ui/latest/loader.js"
+      data-settings-id="0N1iy8dcq"
+      async
+    ></script>
+
+    <script>
+      window.addEventListener("ucEvent", function (e) {
+        if (e.detail && e.detail.event == "consent_status") {
+          // check for consent status of service "Google Analytics"
+          let googleAnalytics = "Google Analytics";
+          if (e.detail[googleAnalytics] === true) {
+            console.log(googleAnalytics + " has consent");
+            tC.event.gtag();
+          } else {
+            console.log(googleAnalytics + " has no consent");
+          }
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Tag Commander</h1>
+
+    /* If the Legal Data Processing Office says it's okay to use the Tag
+    Commander as essential remove the type and the data-usercentrics. */
+    <script src="scripts/tagcommander.js"></script>
+  </body>
+</html>
