@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Overlay</title>
+    <script
+      id="usercentrics-cmp"
+      src="https://app.usercentrics.eu/browser-ui/latest/loader.js"
+      data-settings-id="RfzrhMl1D"
+      async
+    ></script>
+    <script
+      type="application/javascript"
+      src="https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js"
+    ></script>
+
+    <script>
+      uc.blockElements({
+        VJNO26pZe: ".teste", // Show Dailymotion overlay over the element with ID 'custom-container'
+      });
+    </script>
+
+    <script>
+      var prevTrue = false;
+      window.addEventListener("ucEvent", function (e) {
+        if (e.detail && e.detail.event == "consent_status") {
+          // check for consent status of service "Dailymotion"
+          if (e.detail["Dailymotion"] === true) {
+            prevTrue = true;
+          } else {
+            if (prevTrue) {
+              window.location.reload();
+            }
+            prevTrue = false;
+          }
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div class="teste"></div>
+
+    <script
+      type="text/plain"
+      data-usercentrics="Dailymotion"
+      src="https://geo.dailymotion.com/player/x7859A.js"
+      data-playlist="x79dlo"
+      data-video="x7tgad0"
+    ></script>
+  </body>
+</html>
