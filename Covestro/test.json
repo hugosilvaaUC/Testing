@@ -1,0 +1,218 @@
+[
+  {
+    "templateId": "q36ot7w0agNBaM",
+    "version": "1.0.0",
+    "type": "custom",
+    "dataProcessor": "IDnow SDK",
+    "processingCompany": "",
+    "descriptionOfService": "IDnow ist für die Bereitstellung unserer Apps und Dienstleistungen unbedingt erforderlich. Es wird verwendet, um unsere Dienstleistungen in rechtskonformer Weise anzubieten.\n\nUnternehmen, das den Cookie bereitstellt: IDnow GmbH",
+    "technologyUsed": [
+      "Typische Technologien, die in mobilen Apps verwendet werden, sind SDKs oder ähnliche Technologien:\n\nSDK"
+    ],
+    "languagesAvailable": ["de", "en"],
+    "dataCollectedList": [
+      "Anmeldeinformationen (einschließlich Name, Adresse, E-Mail- Adresse, Staatsangehörigkeit, Telefonnummer, Geburtsort, Geburtsland, Geschlecht), Daten im Zusammenhang mit der Anmeldung und dem KYC-Prozess."
+    ],
+    "dataPurposesList": [
+      "Wir verwenden das IDnow SDK und verarbeiten die erhobenen Daten für den Zweck der Erfüllung unserer rechtlichen Verpflichtung zur Identifizierung von Kunden, wenn sie sich für ein Bankkonto bei uns anmelden."
+    ],
+    "dataRecipientsList": ["Die Daten werden von der IDnow GmbH verarbeitet."],
+    "legalBasisList": [
+      "Artikel 6 Abs. 1 f) DSGVO - Die Verarbeitung der personenbezogenen Daten beruht auf unserem berechtigten Interesse. Wir erheben die Daten auf der Grundlage unseres berechtigten Interesses an der gesetzeskonformen Bereitstellung unserer Banking-Dienstleistungen, da wir die Einhaltung der geltenden Gesetze sicherstellen müssen.\n\nRechtsgrundlage für die Verwendung des Cookies: § 25 Abs. 2 Nr. 2 TTDSG - Da es sich um einen unbedingt erforderlichen Cookie handelt, ist deine Einwilligung zum Setzen des Cookies durch uns nicht erforderlich."
+    ],
+    "retentionPeriodList": [],
+    "subConsents": [],
+    "language": "de",
+    "createdBy": "n26#danil.shkarupin@n26.com",
+    "updatedBy": "n26#danil.shkarupin@n26.com",
+    "isShared": false,
+    "isHidden": false,
+    "shareCustomConsent": "",
+    "linkToDpa": "",
+    "defaultConsentStatus": false,
+    "legalGround": "",
+    "optOutUrl": "",
+    "policyOfProcessorUrl": "",
+    "defaultCategorySlug": "",
+    "recordsOfProcessingActivities": "",
+    "retentionPeriod": 0,
+    "retentionPeriodDescription": "Bei der Speicherfrist handelt es sich um diejenige Zeitspanne, in der die erhobenen Daten für die Zwecke der Verarbeitung gespeichert werden. Die Daten werden gelöscht, sobald sie für die genannten Verarbeitungszwecke nicht mehr erforderlich sind.",
+    "dataProtectionOfficer": "",
+    "privacyPolicyURL": "",
+    "cookiePolicyURL": "",
+    "locationOfProcessing": "",
+    "dataCollectedDescription": "",
+    "dataPurposesDescription": "",
+    "legalBasisDescription": "",
+    "optOutDescription": "",
+    "thirdCountryTransfer": "Die Daten werden nicht an Länder außerhalb der EU übermittelt.",
+    "description": "",
+    "deviceStorage": {
+      "disclosures": []
+    },
+    "createdAt": "2023-07-14T08:32:20.107+0000",
+    "updatedAt": "2023-07-14T08:32:34.491+0000"
+  },
+  {
+    "templateId": "q36ot7w0agNBaM",
+    "version": "2.1.0",
+    "type": "custom",
+    "dataProcessor": "IDnow SDK",
+    "processingCompany": "N26 Bank AG, Voltairestr. 8, 10179 Berlin, Deutschland",
+    "descriptionOfService": "IDnow ist für die Bereitstellung unserer Apps und Dienstleistungen unbedingt erforderlich. Es wird verwendet, um unsere Dienstleistungen in rechtskonformer Weise anzubieten.\n\nUnternehmen, das den Cookie bereitstellt: IDnow GmbH",
+    "technologyUsed": [
+      "Typische Technologien, die in mobilen Apps verwendet werden, sind SDKs oder ähnliche Technologien:\n\nSDK"
+    ],
+    "languagesAvailable": ["de", "en"],
+    "dataCollectedList": [
+      "Anmeldeinformationen (einschließlich Name, Adresse, E-Mail- Adresse, Staatsangehörigkeit, Telefonnummer, Geburtsort, Geburtsland, Geschlecht), Daten im Zusammenhang mit der Anmeldung und dem KYC-Prozess."
+    ],
+    "dataPurposesList": [
+      "Wir verwenden das IDnow SDK und verarbeiten die erhobenen Daten für den Zweck der Erfüllung unserer rechtlichen Verpflichtung zur Identifizierung von Kunden, wenn sie sich für ein Bankkonto bei uns anmelden."
+    ],
+    "dataRecipientsList": ["Die Daten werden von der IDnow GmbH verarbeitet."],
+    "legalBasisList": [
+      "Artikel 6 Abs. 1 f) DSGVO - Die Verarbeitung der personenbezogenen Daten beruht auf unserem berechtigten Interesse. Wir erheben die Daten auf der Grundlage unseres berechtigten Interesses an der gesetzeskonformen Bereitstellung unserer Banking-Dienstleistungen, da wir die Einhaltung der geltenden Gesetze sicherstellen müssen.\n\nRechtsgrundlage für die Verwendung des Cookies: § 25 Abs. 2 Nr. 2 TTDSG - Da es sich um einen unbedingt erforderlichen Cookie handelt, ist deine Einwilligung zum Setzen des Cookies durch uns nicht erforderlich."
+    ],
+    "retentionPeriodList": [],
+    "subConsents": [],
+    "language": "de",
+    "createdBy": "n26#danil.shkarupin@n26.com",
+    "updatedBy": "n26#danil.shkarupin@n26.com",
+    "isShared": false,
+    "isHidden": false,
+    "shareCustomConsent": "",
+    "linkToDpa": "",
+    "defaultConsentStatus": false,
+    "legalGround": "",
+    "optOutUrl": "",
+    "policyOfProcessorUrl": "",
+    "defaultCategorySlug": "",
+    "recordsOfProcessingActivities": "",
+    "retentionPeriod": 0,
+    "retentionPeriodDescription": "Bei der Speicherfrist handelt es sich um diejenige Zeitspanne, in der die erhobenen Daten für die Zwecke der Verarbeitung gespeichert werden. Die Daten werden gelöscht, sobald sie für die genannten Verarbeitungszwecke nicht mehr erforderlich sind.",
+    "dataProtectionOfficer": "",
+    "privacyPolicyURL": "",
+    "cookiePolicyURL": "",
+    "locationOfProcessing": "",
+    "dataCollectedDescription": "",
+    "dataPurposesDescription": "",
+    "legalBasisDescription": "",
+    "optOutDescription": "",
+    "thirdCountryTransfer": "Die Daten werden nicht an Länder außerhalb der EU übermittelt.",
+    "description": "",
+    "deviceStorage": {
+      "disclosures": []
+    },
+    "createdAt": "2023-07-14T08:32:34.502+0000",
+    "updatedAt": "2023-07-14T08:32:34.502+0000"
+  },
+  {
+    "templateId": "q36ot7w0agNBaM",
+    "version": "1.0.0",
+    "type": "custom",
+    "dataProcessor": "IDnow SDK",
+    "processingCompany": "",
+    "descriptionOfService": "IDnow is absolutely necessary for the provision of our apps and services. It is used to offer our services in a legally compliant manner.\n\nCompany that provides the cookie: IDnow GmbH",
+    "technologyUsed": [
+      "Typical technologies used in mobile apps are SDKs or similar technologies:\n\nSDK"
+    ],
+    "languagesAvailable": ["de", "en"],
+    "dataCollectedList": [
+      "Registration information (including name, address, email address, nationality, phone number, place of birth, country of birth, gender), data related to registration and the KYC process."
+    ],
+    "dataPurposesList": [
+      "We use the IDnow SDK and process the data collected for the purpose of fulfilling our legal obligation to identify customers when they register for a bank account with us."
+    ],
+    "dataRecipientsList": ["Die Daten werden von der IDnow GmbH verarbeitet."],
+    "legalBasisList": [
+      "Article 6 paragraph 1 f) GDPR - The processing of personal data is based on our legitimate interest. We collect the data on the basis of our legitimate interest in providing our banking services in a lawful manner as we need to ensure compliance with applicable laws.\n\nLegal basis for the use of the cookie: Section 25 Paragraph 2 No. 2 TTDSG - since it is an absolutely necessary cookie, your consent to us setting the cookie is not required."
+    ],
+    "retentionPeriodList": [],
+    "subConsents": [],
+    "language": "en",
+    "createdBy": "n26#danil.shkarupin@n26.com",
+    "updatedBy": "n26#danil.shkarupin@n26.com",
+    "isShared": false,
+    "isHidden": false,
+    "shareCustomConsent": "",
+    "linkToDpa": "",
+    "defaultConsentStatus": false,
+    "legalGround": "",
+    "optOutUrl": "",
+    "policyOfProcessorUrl": "",
+    "defaultCategorySlug": "",
+    "recordsOfProcessingActivities": "",
+    "retentionPeriod": 0,
+    "retentionPeriodDescription": "The storage period is the period of time in which the collected data is stored for the purposes of processing. The data will be deleted as soon as they are no longer required for the processing purposes mentioned.",
+    "dataProtectionOfficer": "",
+    "privacyPolicyURL": "",
+    "cookiePolicyURL": "",
+    "locationOfProcessing": "",
+    "dataCollectedDescription": "",
+    "dataPurposesDescription": "",
+    "legalBasisDescription": "",
+    "optOutDescription": "",
+    "thirdCountryTransfer": "The data will not be transmitted to countries outside the EU.",
+    "description": "",
+    "deviceStorage": {
+      "disclosures": []
+    },
+    "createdAt": "2023-07-14T08:32:20.107+0000",
+    "updatedAt": "2023-07-14T08:32:34.491+0000"
+  },
+  {
+    "templateId": "q36ot7w0agNBaM",
+    "version": "2.1.0",
+    "type": "custom",
+    "dataProcessor": "IDnow SDK",
+    "processingCompany": "N26 Bank AG, Voltairestr. 8, 10179 Berlin, Germany",
+    "descriptionOfService": "IDnow is strictly necessary for the provision of our apps and services. It is used to offer our services in a legally compliant way.\n\nEntity providing the Cookie: IDnow GmbH",
+    "technologyUsed": [
+      "Typical technologies used in mobile Apps are SDKs or similar technologies:\n\nSDK"
+    ],
+    "languagesAvailable": ["en", "de"],
+    "dataCollectedList": [
+      "Sign up information, (including  Name,  Address,  Email, Nationality,  Phone Number, City of Birth, Country of Birth, Gender),  Data associated with sign-up and KYC-process."
+    ],
+    "dataPurposesList": [
+      "We use the IDnow SDK and process the data collected for the purpose of fulfilling our legal obligation to identify  customers when they sign up for a bank account with us."
+    ],
+    "dataRecipientsList": ["Data is processed by IDnow GmbH."],
+    "legalBasisList": [
+      "Art. 6 (1) f) GDPR - The processing of personal data is based on our legitimate interest. We are collecting the data based on our legitimate interest of providing our banking services in a compliant manner, as we must ensure compliance with applicable laws.\n\nLegal basis for the usage of the Cookie: Sec. 25 (2) no. 2 TTDSG - As this is a strictly necessary Cookie, your consent to our placing of the Cookie is not required."
+    ],
+    "retentionPeriodList": [],
+    "subConsents": [],
+    "language": "en",
+    "createdBy": "n26#danil.shkarupin@n26.com",
+    "updatedBy": "n26#danil.shkarupin@n26.com",
+    "isShared": false,
+    "isHidden": false,
+    "shareCustomConsent": "",
+    "linkToDpa": "",
+    "defaultConsentStatus": false,
+    "legalGround": "",
+    "optOutUrl": "",
+    "policyOfProcessorUrl": "",
+    "defaultCategorySlug": "",
+    "recordsOfProcessingActivities": "",
+    "retentionPeriod": 0,
+    "retentionPeriodDescription": "The retention period is the time span the collected data is saved for the processing purposes. The data is deleted as soon as it is no longer needed for the stated processing purposes.",
+    "dataProtectionOfficer": "",
+    "privacyPolicyURL": "",
+    "cookiePolicyURL": "",
+    "locationOfProcessing": "",
+    "dataCollectedDescription": "",
+    "dataPurposesDescription": "",
+    "legalBasisDescription": "",
+    "optOutDescription": "",
+    "thirdCountryTransfer": "Data is not transferred outside of the EU.",
+    "description": "",
+    "deviceStorage": {
+      "disclosures": []
+    },
+    "createdAt": "2023-07-14T08:32:34.503+0000",
+    "updatedAt": "2023-07-14T08:32:34.503+0000"
+  }
+]
